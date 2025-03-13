@@ -43,7 +43,7 @@ body::before {
     width: 100%;
 }
 section {
-    background: rgba(0, 242, 255, 0.7);
+    background: rgba(0, 255, 208, 0.7);
     padding: 20px;
     margin: 20px auto;
     margin-left: 500px;
@@ -60,7 +60,7 @@ button {
     position: fixed;
     top: 10px;
     left: 10px;
-    background: linear-gradient(to right, #00eaff, #007ec7);
+    background: linear-gradient(to right, #00ffd5, #00c79f);
     padding: 10px 15px;
     border: none;
     border-radius: 5px;
@@ -74,6 +74,17 @@ button {
     transition: background 0.3s, transform 0.2s;
 }
 button:hover {
-    background: linear-gradient(to right, #00b6c7, #1da2d7);
+    background: linear-gradient(to right, #00c7b0, #1dd7c7);
      transform: scale(1.1);
+}
+.videoBMO {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
 }
