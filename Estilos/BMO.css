@@ -88,3 +88,8 @@ video {
     max-width: 100%;
     height: auto;
 }
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color:  rgba(0, 255, 208, 0.7);
+}
