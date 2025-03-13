@@ -7,27 +7,51 @@
 
 }
 
-body{
-    background-image: url(Recursos/Fondo.webp);
+body {
+    background: url('recursos/Fondo.webp');
     background-size: cover;
-}
-
-a{
-    display: inline-block;
-    background-color: #e6ebdf;
-    color: #000000;
-    width: 190px;
-    padding: 17px;
-    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 5px;
-    margin: 30px;
-    transition: background-color 0.3s;
-    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.4);
+    font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
-a:hover {
-    background-color: #afbd99;
-  }
+header {
+    margin: 20px 0;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 80%;
+}
+
+section a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+section img {
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 10px;
+}
+
+section img:hover {
+    transform: scale(1.1) rotate(5deg);
+}
+#audio {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+}
